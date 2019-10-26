@@ -12,12 +12,16 @@ busca en el sistema.
 
 
 Ejemplos:
--#include "stdafx.h" es una cabecera precompilada,
+- #include "stdafx.h" es una cabecera precompilada,
 la cual tiene la función de guardar resultados de compilación
 anterior para el ahorro de tiempo. 
 Si no se tiene simplemente se compilará cada vez desde el scratch. 
 
--#include <iostream> utilizado para operaciones de entrada/salida.
+- #include <stdio.h> Standard Input Output header
+Contiene definiciones de 
+
+
+- #include <iostream> utilizado para operaciones de entrada/salida.
 Acrónimo de Input Output Stream.
 cin <<: Flujo de entrada
 cout >>: flujo salida 
@@ -26,3 +30,10 @@ clog: Flujo de error almacenado
 Para su uso se debe colocar std:: antes y pegado al comando para su uso,
 también se puede agregar: using namespace std fuera del main para evitar 
 colocar el std::.
+
+- #include <conio.h> Asociado a la entrada y salida de consola.
+Entre sus funciones están:
+getch : Lee un caracter desde consola sin hacer buffer ni mostrarlo. 
+getche : Lo mismo que getch pero mostrando salida.
+kbhit : Determina si una tecla a sido presionada.
+https://es.wikipedia.org/wiki/Conio.h
