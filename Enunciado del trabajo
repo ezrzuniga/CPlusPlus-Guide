@@ -1,0 +1,19 @@
+Este proyecto cuenta con los siguientes proyectos:
+
+FirstProject
+- Hacer un menú con varias opciones donde se brinde información de variables, tabulaciones, comentarios, estructuras y cuestiones básicas para la programación del lenguaje en cuestión.
+
+SecondProject
+-Banco ficticio que permita agregar personas con los datos: nombre, cédula, edad y lugar de residencia. Además, cada persona tendrá una cuenta de dinero que se le puede agregar o reducir, se podrán hacer transferencias entre dos sujetos (reducir a quien está haciendo la transferencia). Adicionalmente se podrá consultar la cuenta con la cédula y se hará uso de excepciones para los errores.
+
+ThirdProject
+-Generar un Fibonacci y factorial de número con recursividad.
+
+FourthProject
+-Hacer un stopwatch que muestre la hora y se pueda pausar con hilos.
+
+FifthProject
+-Menú con la opción de crear vehículos utilizando herencia. Se pueden crear bicicletas, deportivos, vagonetas... Después de crear los objetos se debe mostrar las opciones de métodos que puede hacer. 
+
+
+Además de lo anterior, el comentar sobre librerías es algo necesario para el proyecto, como la función de cada uno.
