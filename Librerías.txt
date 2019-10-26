@@ -1,0 +1,28 @@
+Librerías:
+
+Para hacer uso de una librería se debe usar:
+#include <librería> o #include "librería".
+
+#include < > es para cabeceras de sistema o librerías.
+Busca en el sistema y si no se encuentra da error.
+
+#include " " es para cabeceras del programador.
+Busca en la carpeta del archivo actual, si no aparece;
+busca en el sistema.
+
+
+Ejemplos:
+-#include "stdafx.h" es una cabecera precompilada,
+la cual tiene la función de guardar resultados de compilación
+anterior para el ahorro de tiempo. 
+Si no se tiene simplemente se compilará cada vez desde el scratch. 
+
+-#include <iostream> utilizado para operaciones de entrada/salida.
+Acrónimo de Input Output Stream.
+cin <<: Flujo de entrada
+cout >>: flujo salida 
+cerr: Flujo de error no almacenado
+clog: Flujo de error almacenado
+Para su uso se debe colocar std:: antes y pegado al comando para su uso,
+también se puede agregar: using namespace std fuera del main para evitar 
+colocar el std::.
