@@ -18,8 +18,10 @@ anterior para el ahorro de tiempo.
 Si no se tiene simplemente se compilará cada vez desde el scratch. 
 
 - #include <stdio.h> Standard Input Output header
-Contiene definiciones de 
-
+Contiene definiciones de entrada y salida, así como para la manipulación
+de ficheros.
+printf y scanf son funciones definidas por esta librería, así como los de
+ficheros como fopen y fclose.
 
 - #include <iostream> utilizado para operaciones de entrada/salida.
 Acrónimo de Input Output Stream.
