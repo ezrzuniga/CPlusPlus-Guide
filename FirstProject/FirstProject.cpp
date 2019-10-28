@@ -11,16 +11,12 @@ void menu_inicio(string title);
 void variables(string title);
 void comentarios(string title);
 void funciones(string title);
-
-
+void estructuras(string title);
 
 //	MAIN
-
-int main()
-{
+int main(){
 	system("title Programa Informativo de C++"); //Título a la ventana
-	system("color 0b"); //primer color consola, segundo texto.
-	
+	system("color 0b"); //primer color consola, segundo texto.	
 	bool salir = false;
 	int opc = 0;
 	string titulo;
@@ -49,6 +45,8 @@ int main()
 
 		case 4:
 			//Estructuras
+			titulo = "Que son estructuras?";
+			estructuras(titulo);
 			break;
 
 		case 5:
@@ -60,11 +58,7 @@ int main()
 			system("pause");
 			break;
 		}
-	
-	
 	}
-	
-	
 }
 
 
@@ -132,3 +126,13 @@ void funciones(string title) {
 	system("pause");
 }
 
+void estructuras(string title) {
+	system("cls");
+	impresion_titulo(title);
+	cout << "Las estructuras permiten agrupar varios tipos de datos, lo que permite la manipulacion de estos datos como un conjunto o por separado.\n\n";
+	cout << "Una estructura se crea con la declaracion 'struct' como se muestra a continuacion:\n";
+	cout << "struct identificador{\n\tint numero1; \n\t\int numero2; \n\tstring nombre;}\n\n";
+	cout << "Las estructuras pueden referenciarse completas, usando su nombre como se hace con habitualmente o tambien se puede acceder a los elementos definidos en el interior de la estructura,"
+		"usando el operador de seleccion punto (.) en el caso de ser variables estaticas, de lo contrario, si se manejan por punteros se accede con: ->. \n\n";
+	system("pause");
+}
